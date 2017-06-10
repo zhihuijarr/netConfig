@@ -3,7 +3,7 @@ th_repos:
     #ip dir
     port: '21'
     
-    name: 'tyhoo.com/sdkftp'
+    name: 'sdkftp'
     
     password: 'sdkftp.com'
     
@@ -12,27 +12,34 @@ th_repos:
             path: '/th_repos/pyLibs'
             excluded: 
                 - '.py'
+            info: "python第三方常用库"
         thLibs :
             path: '/th_repos/thLibs'
             excluded:
                 - '.py'
+            info: "python天火自定义库"
         cgtkLibs :
             path: '/th_repos/cgtkLibs'
             excluded:
                 - '.py'
+            info: "pythonCger常用库"
         modules :
             path: '/th_repos/maya/modules'
             excluded:
                 - ''
-        scripts :
+            info: "maya的插件环境配置"
+        mayaScripts :
             path: '/th_repos/maya/scripts'
             excluded:
                 - '.py'
+            info: "maya脚本"
         mtoa_1.4.2.2_maya2016 :
             path: '/th_repos/maya/plug-ins/mtoa_1.4.2.2_maya2016'
             excluded:
                 - ''
+            info: "Arnold渲染器插件"
         Yeti2.1.6_Maya2016 :
             path: '/th_repos/maya/plug-ins/Yeti2.1.6_Maya2016'
             excluded:
                 - ''
+            info: "Yeti毛发插件"
