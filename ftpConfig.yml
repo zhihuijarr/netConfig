@@ -8,15 +8,31 @@ th_repos:
     password: 'sdkftp.com'
     
     filter:
-        '/th_repos/pyLibs':
-            - '.py'
-        '/th_repos/thLibs':
-            - '.py'
-        '/th_repos/cgtkLibs':
-            - '.py'
-        '/th_repos/maya/modules':
-            - ''
-        '/th_repos/maya/plug-ins':
-            - ''
-        '/th_repos/maya/scripts':
-            - '.py'
+        pyLibs : 
+            path: '/th_repos/pyLibs'
+            excluded: 
+                - '.py'
+        thLibs :
+            path:'/th_repos/thLibs'
+            excluded:
+                - '.py'
+        cgtkLibs :
+            path:'/th_repos/cgtkLibs'
+            excluded:
+                - '.py'
+        modules :
+            path:'/th_repos/maya/modules'
+            excluded:
+                - ''
+        scripts :
+            path:'/th_repos/maya/scripts'
+            excluded:
+                - '.py'
+        mtoa_1.4.2.2_maya2016 :
+            path:'/th_repos/maya/plug-ins/mtoa_1.4.2.2_maya2016'
+            excluded:
+                - ''
+        Yeti2.1.6_Maya2016 :
+            path:'/th_repos/maya/plug-ins/Yeti2.1.6_Maya2016'
+            excluded:
+                - ''
