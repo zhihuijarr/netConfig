@@ -8,10 +8,15 @@ th_repos:
     password: 'sdkftp.com'
     
     filter:
-        '/th_repos/maya/plug-ins/mtoa_1.2.7.3_maya2015/bin':
-            - '.py'
-            - '.exe'
         '/th_repos/pyLibs':
             - '.py'
         '/th_repos/thLibs':
+            - '.py'
+        '/th_repos/cgtkLibs':
+            - '.py'
+        '/th_repos/maya/modules':
             - ''
+        '/th_repos/maya/plug-ins':
+            - ''
+        '/th_repos/maya/scripts':
+            - '.py'
