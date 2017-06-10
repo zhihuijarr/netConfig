@@ -13,26 +13,26 @@ th_repos:
             excluded: 
                 - '.py'
         thLibs :
-            path:'/th_repos/thLibs'
+            path: '/th_repos/thLibs'
             excluded:
                 - '.py'
         cgtkLibs :
-            path:'/th_repos/cgtkLibs'
+            path: '/th_repos/cgtkLibs'
             excluded:
                 - '.py'
         modules :
-            path:'/th_repos/maya/modules'
+            path: '/th_repos/maya/modules'
             excluded:
                 - ''
         scripts :
-            path:'/th_repos/maya/scripts'
+            path: '/th_repos/maya/scripts'
             excluded:
                 - '.py'
         mtoa_1.4.2.2_maya2016 :
-            path:'/th_repos/maya/plug-ins/mtoa_1.4.2.2_maya2016'
+            path: '/th_repos/maya/plug-ins/mtoa_1.4.2.2_maya2016'
             excluded:
                 - ''
         Yeti2.1.6_Maya2016 :
-            path:'/th_repos/maya/plug-ins/Yeti2.1.6_Maya2016'
+            path: '/th_repos/maya/plug-ins/Yeti2.1.6_Maya2016'
             excluded:
                 - ''
