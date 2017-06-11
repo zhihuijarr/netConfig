@@ -26,7 +26,8 @@ th_repos:
         modules :
             path: '/th_repos/maya/modules'
             excluded:
-                - ''
+                - 'history'
+                - '.mod'
             info: "maya的插件环境配置"
         mayaScripts :
             path: '/th_repos/maya/scripts'
