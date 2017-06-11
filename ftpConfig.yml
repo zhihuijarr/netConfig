@@ -11,28 +11,45 @@ th_repos:
         pyLibs : 
             path: '/th_repos/pyLibs'
             excluded: 
+                - 'history'
+                - '.gitkeep'
+                - '.gitignore'
                 - '.py'
             info: "python第三方常用库"
         thLibs :
             path: '/th_repos/thLibs'
             excluded:
+                - 'history'
+                - '.gitkeep'
+                - '.gitignore'
                 - '.py'
             info: "python天火自定义库"
         cgtkLibs :
             path: '/th_repos/cgtkLibs'
             excluded:
+                - 'history'
+                - '.gitkeep'
+                - '.gitignore'
                 - '.py'
             info: "pythonCger常用库"
         modules :
             path: '/th_repos/maya/modules'
             excluded:
                 - 'history'
+                - '.gitkeep'
+                - '.gitignore'
+                - 'shaveHaircut.mod'
+                - 'MiarmyForMaya.mod'
             info: "maya的插件环境配置"
         mayaScripts :
             path: '/th_repos/maya/scripts'
             excluded:
+                - 'history'
+                - '.gitkeep'
+                - '.gitignore'
                 - '.py'
             info: "maya脚本"
+            
         mtoa_1.4.2.2_maya2016 :
             path: '/th_repos/maya/plug-ins/mtoa_1.4.2.2_maya2016'
             excluded:
