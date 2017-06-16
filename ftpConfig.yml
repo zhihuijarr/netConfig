@@ -1,4 +1,4 @@
-th_repos:
+thRepos:
     ip: '153.37.213.18'
     #ip dir
     port: '21'
@@ -8,8 +8,8 @@ th_repos:
     password: 'sdkftp.com'
     
     filter:
-        pyLibs : 
-            path: '/th_repos/pyLibs'
+        site-packages : 
+            path: '/thRepos/pyLibs/site-packages'
             excluded: 
                 - 'history'
                 - '.gitkeep'
@@ -17,7 +17,7 @@ th_repos:
                 - '.py'
             info: "python第三方常用库"
         thLibs :
-            path: '/th_repos/thLibs'
+            path: '/thRepos/pyLibs/thLibs'
             excluded:
                 - 'history'
                 - '.gitkeep'
@@ -25,7 +25,7 @@ th_repos:
                 - '.py'
             info: "python天火自定义库"
         cgtkLibs :
-            path: '/th_repos/cgtkLibs'
+            path: '/thRepos/pyLibs/cgtkLibs'
             excluded:
                 - 'history'
                 - '.gitkeep'
@@ -33,7 +33,7 @@ th_repos:
                 - '.py'
             info: "pythonCger常用库"
         modules :
-            path: '/th_repos/maya/modules'
+            path: '/thRepos/maya/modules'
             excluded:
                 - 'history'
                 - '.gitkeep'
@@ -42,7 +42,7 @@ th_repos:
                 - 'MiarmyForMaya.mod'
             info: "maya的插件环境配置"
         mayaScripts :
-            path: '/th_repos/maya/scripts'
+            path: '/thRepos/maya/scripts'
             excluded:
                 - 'history'
                 - '.gitkeep'
@@ -51,12 +51,12 @@ th_repos:
             info: "maya脚本"
             
         mtoa_1.4.2.2_maya2016 :
-            path: '/th_repos/maya/plug-ins/mtoa_1.4.2.2_maya2016'
+            path: '/thRepos/maya/plug-ins/mtoa_1.4.2.2_maya2016'
             excluded:
                 - ''
             info: "Arnold渲染器插件"
         Yeti2.1.6_Maya2016 :
-            path: '/th_repos/maya/plug-ins/Yeti2.1.6_Maya2016'
+            path: '/thRepos/maya/plug-ins/Yeti2.1.6_Maya2016'
             excluded:
                 - ''
             info: "Yeti毛发插件"
