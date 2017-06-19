@@ -14,7 +14,6 @@ thRepos:
                 - 'history'
                 - '.gitkeep'
                 - '.gitignore'
-                - '.py'
             info: "python第三方常用库" 
         maya-modules :
             path: '/thRepos/maya/modules'
@@ -37,7 +36,9 @@ thRepos:
         maya2016-mtoa1422 :
             path: '/thRepos/maya/plug-ins/mtoa_1.4.2.2_maya2016'
             excluded:
-                - ''
+                - 'history'
+                - '.gitkeep'
+                - '.gitignore'
             info: "Arnold渲染器插件"
         maya2016-Yeti216 :
             path: '/thRepos/maya/plug-ins/Yeti2.1.6_Maya2016'
