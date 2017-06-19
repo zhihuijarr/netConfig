@@ -8,31 +8,15 @@ thRepos:
     password: 'sdkftp.com'
     
     filter:
-        site-packages : 
-            path: '/thRepos/pyLibs/site-packages'
+        pyLibs : 
+            path: '/thRepos/pyLibs'
             excluded: 
                 - 'history'
                 - '.gitkeep'
                 - '.gitignore'
                 - '.py'
-            info: "python第三方常用库"
-        thLibs :
-            path: '/thRepos/pyLibs/thLibs'
-            excluded:
-                - 'history'
-                - '.gitkeep'
-                - '.gitignore'
-                - '.py'
-            info: "python天火自定义库"
-        cgtkLibs :
-            path: '/thRepos/pyLibs/cgtkLibs'
-            excluded:
-                - 'history'
-                - '.gitkeep'
-                - '.gitignore'
-                - '.py'
-            info: "pythonCger常用库"
-        modules :
+            info: "python第三方常用库" 
+        maya-modules :
             path: '/thRepos/maya/modules'
             excluded:
                 - 'history'
@@ -41,7 +25,7 @@ thRepos:
                 - 'shaveHaircut.mod'
                 - 'MiarmyForMaya.mod'
             info: "maya的插件环境配置"
-        mayaScripts :
+        maya-Scripts :
             path: '/thRepos/maya/scripts'
             excluded:
                 - 'history'
@@ -50,12 +34,12 @@ thRepos:
                 - '.py'
             info: "maya脚本"
             
-        mtoa_1.4.2.2_maya2016 :
+        maya2016-mtoa1422 :
             path: '/thRepos/maya/plug-ins/mtoa_1.4.2.2_maya2016'
             excluded:
                 - ''
             info: "Arnold渲染器插件"
-        Yeti2.1.6_Maya2016 :
+        maya2016-Yeti216 :
             path: '/thRepos/maya/plug-ins/Yeti2.1.6_Maya2016'
             excluded:
                 - ''
