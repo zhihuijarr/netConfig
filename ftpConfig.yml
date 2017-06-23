@@ -45,3 +45,10 @@ thRepos:
             excluded:
                 - ''
             info: "Yeti毛发插件"
+        mtoa_1.2.7.3_maya2014:
+            path: '/thRepos/maya/plug-ins/mtoa_1.2.7.3_maya2014'
+            excluded:
+                - 'history'
+                - '.gitkeep'
+                - '.gitignore'
+            info: "Arnold渲染器插件"  
