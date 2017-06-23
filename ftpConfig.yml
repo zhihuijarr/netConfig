@@ -15,6 +15,7 @@ thRepos:
                 - '.gitkeep'
                 - '.gitignore'
             info: "python第三方常用库" 
+            
         maya-modules :
             path: '/thRepos/maya/modules'
             excluded:
@@ -24,6 +25,7 @@ thRepos:
                 - 'shaveHaircut.mod'
                 - 'MiarmyForMaya.mod'
             info: "maya的插件环境配置"
+            
         maya-Scripts :
             path: '/thRepos/maya/scripts'
             excluded:
@@ -40,12 +42,14 @@ thRepos:
                 - '.gitkeep'
                 - '.gitignore'
             info: "Arnold渲染器插件"
+            
         maya2016-Yeti216 :
             path: '/thRepos/maya/plug-ins/Yeti2.1.6_Maya2016'
             excluded:
                 - ''
             info: "Yeti毛发插件"
-        mtoa_1.2.7.3_maya2014:
+            
+        maya2014-mtoa1273 :
             path: '/thRepos/maya/plug-ins/mtoa_1.2.7.3_maya2014'
             excluded:
                 - 'history'
