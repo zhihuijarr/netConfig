@@ -49,6 +49,8 @@ thRepos:
                 - '.gitkeep'
                 - '.gitignore'
             included:
+                - ''
+                
             info: "Arnold渲染器插件"
             
         maya2016-Yeti216 :
