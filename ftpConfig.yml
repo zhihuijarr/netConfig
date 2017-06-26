@@ -33,7 +33,10 @@ thRepos:
                 - '.gitkeep'
                 - '.gitignore'
                 - '.py'
+            included:
+                - 'userSetup.py'
             info: "maya脚本"
+            
             
         maya2016-mtoa1422 :
             path: '/thRepos/maya/plug-ins/mtoa_1.4.2.2_maya2016'
