@@ -41,5 +41,6 @@ thRepos:
                 - '.py'
             included:
                 - 'userSetup.py'
+                - 'standaloneAbcWrite.py'
             info: "maya脚本"            
             
